@@ -8,27 +8,15 @@
 <main class="contenedor principal">
 
     <h2>Bienvenido</h2>
+    <h3>
+        Disfruta de las mejores películas
+    </h3>
+        <p class="entrada__calificacion">
+        Contamos un un catálogo amplio de películas familiares y de anime!
+        </p>
+        <a id="catalogo-texto" href="{% url 'menu_peliculas' %}"><strong> Ver catálogo </strong></a>
 
-        <div class="cartelera">
-                <article class="inicio">
-
-                    <a class="entrada__poster" href="#">
-                        <img src="#"
-                             alt="#">
-                    </a>
-
-                    <div class="entrada__cuerpo">
-                        <h3 class="entrada__titulo">
-                            <a href="#">{{ catalogo.titulo }}</a>
-                        </h3>
-                        <p class="entrada__texto">####</p>
-                        <p class="entrada__calificacion">
-                            <strong>Calificación:</strong>
-                        </p>
-                    </div>
-
-                </article>
-        </div>
+        <img src="{% static 'images/portadas/portadafusionborn.jpg' %}" alt="Peli">
 
 
 </main>
