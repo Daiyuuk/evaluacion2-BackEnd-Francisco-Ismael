@@ -1,0 +1,42 @@
+{% extends 'base.html' %}
+{% load static %}
+
+{% block title %}Películas{% endblock %}
+
+{% block content %}
+
+<main class="contenedor principal">
+
+    <h2>Películas destacadas</h2>
+
+    {% if catalogos %}
+        <div class="cartelera">
+            {% for catalogo in catalogos %}
+                <article class="entrada">
+
+                    <a class="entrada__poster" href="{% url 'detalle_pelicula' catalogo.slug %}" tabindex="-1">
+                        <img src="{% static 'images/'|add:catalogo.imagen %}"
+                             alt="{{ catalogo.titulo }}">
+                    </a>
+
+                    <div class="entrada__cuerpo">
+                        <h3 class="entrada__titulo">
+                            <a href="{% url 'detalle_pelicula' catalogo.slug %}">{{ catalogo.titulo }}</a>
+                        </h3>
+                        <p class="entrada__texto">{{ catalogo.descripcion }}</p>
+                        <p class="entrada__calificacion">
+                            <strong>Calificación:</strong>
+                            {{ catalogo.calificacion }}
+                        </p>
+                    </div>
+
+                </article>
+            {% endfor %}
+        </div>
+    {% else %}
+        <p class="aviso">No hay películas destacadas</p>
+    {% endif %}
+
+</main>
+
+{% endblock %}
