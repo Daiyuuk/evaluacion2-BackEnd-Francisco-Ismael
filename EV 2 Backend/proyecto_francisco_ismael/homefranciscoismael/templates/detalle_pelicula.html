@@ -8,7 +8,7 @@
 <main class="detalle">
 
     <img class="detalle__fondo"
-         src="{% static 'images/'|add:pelicula.portada %}"
+         src="{% static 'images/portadas/'|add:pelicula.portada %}"
          alt="Portada de {{ pelicula.titulo }}">
 
     <a class="volver" href="{% url 'menu_peliculas' %}">Volver a películas</a>
