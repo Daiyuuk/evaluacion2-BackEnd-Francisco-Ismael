@@ -1,6 +1,6 @@
 # evaluacion2-BackEnd-Francisco-Ismael
 
-**Francisco Miranda**
+**Francisco Miranda - francisco.miranda52@inacapmail.cl**
 <br>
 
-**Ismael Figueroa**
+**Ismael Figueroa - ismael.figueroa@inacapmail.cl**
