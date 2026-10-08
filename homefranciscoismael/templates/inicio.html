@@ -1,12 +1,36 @@
-<!DOCTYPE html>
-<html>
-<head>
-    <title>Inicio</title>
-</head>
-<body>
+{% extends 'base.html' %}
+{% load static %}
 
-    <h1>Bienvenido</h1>
-    <p>La página funciona correctamente.</p>
+{% block title %}Página principal{% endblock %}
 
-</body>
-</html>
+{% block content %}
+
+<main class="contenedor principal">
+
+    <h2>Bienvenido</h2>
+
+        <div class="cartelera">
+                <article class="inicio">
+
+                    <a class="entrada__poster" href="#">
+                        <img src="#"
+                             alt="#">
+                    </a>
+
+                    <div class="entrada__cuerpo">
+                        <h3 class="entrada__titulo">
+                            <a href="#">{{ catalogo.titulo }}</a>
+                        </h3>
+                        <p class="entrada__texto">####</p>
+                        <p class="entrada__calificacion">
+                            <strong>Calificación:</strong>
+                        </p>
+                    </div>
+
+                </article>
+        </div>
+
+
+</main>
+
+{% endblock %}

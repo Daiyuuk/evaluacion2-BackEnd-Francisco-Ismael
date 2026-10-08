@@ -15,10 +15,19 @@ CATALOGO = [
     {'slug':'hero','titulo':'Dragon Ball Super: Super Hero', 'descripcion':'La malvada organización de La Patrulla Roja se reúne con nuevos y más poderosos androides, Gamma 1 y Gamma 2, en busca de venganza.', 'calificacion':'3.9/5', 'imagen':'hero.jpg', 'portada':'portadahero.','categoria':'anime'}, 
 
     ## FAMILIARES
-    {'slug': 'turbo', 'titulo': 'Turbo ', 'descripcion': 'Descripción de la película 2', 'calificacion': '4 estrellas', 'imagen': 'Turbo.jpg', 'portada': 'portadaturbo.jpg'},
-    {'slug': 'gato-con-botas', 'titulo': 'Gato con botas', 'descripcion': 'Descripción de la película 3', 'calificacion': '5 estrellas', 'imagen': 'gatoconbotas.jpg', 'portada': 'portadagatoconbotas.jpg'},
-    {'slug': 'bolt', 'titulo': 'bolt', 'descripcion': 'Descripción de la película 4', 'calificacion': '3 estrellas', 'imagen': 'bolt.jpg', 'portada': 'portadabolt.jpg'},
-    {'slug': 'ratatouille', 'titulo': 'Ratatouille', 'descripcion': 'Descripción de la película 5', 'calificacion': '4 estrellas', 'imagen': 'ratatouille.jpg', 'portada': 'portadaratatouille.jpg'},
+    {'slug': 'turbo', 'titulo': 'Turbo ', 'descripcion': 'Turbo es un caracol de jardín con un sueño imposible: convertirse en el caracol más rápido del mundo. Cuando un extraño accidente le da el poder de la supervelocidad, Turbo intentará cumplir su sueño: ganar las 500 millas de Indianápolis.', 'calificacion': '3.5/5', 'imagen': 'Turbo.jpg', 'portada': 'portadaturbo.jpg','categoria':'familiar'},
+    {'slug': 'gato-con-botas', 'titulo': 'Gato con botas', 'descripcion': 'El famoso gato tiene la aventura de su vida cuando une fuerzas con Humpty Dumpty y la gata Kitty para robarse al ganso de los huevos de oro.', 'calificacion': '3.5/5', 'imagen': 'gatoconbotas.jpg', 'portada': 'portadagatoconbotas.jpg','categoria':'familiar'},
+    {'slug': 'bolt', 'titulo': 'Bolt', 'descripcion': 'Pensando que él tiene superpoderes de verdad, una estrella canina de un exitoso programa de televisión viaje a través del país, desde Hollywood hasta Nueva York, para rescatar a su dueña, la otra estrella de su espectáculo televisivo.', 'calificacion': '4/5', 'imagen': 'bolt.jpg', 'portada': 'portadabolt.jpg','categoria':'familiar'},
+    {'slug': 'ratatouille', 'titulo': 'Ratatouille', 'descripcion': 'La rata Remy viaja a París para cumplir su sueño: convertirse en un gran chef. Aunque las ratas no pueden entrar en las cocinas, se hace amigo de un chico mediocre que trabaja en un restaurante de lujo.', 'calificacion': '4.7/5', 'imagen': 'ratatouille.jpg', 'portada': 'portadarata.webp','categoria':'familiar'},
+    {'slug':'hoppers','titulo':'Hoppers','descripcion':'Una amante de los animales se une a su mundo y hace descubrimientos sorprendentes.','calificacion':'4.9/5','imagen':'hoppers.jpg','portada':'portadahoppers.webp','categoria':'familiar'},
+    {'slug':'toystory','titulo':'Toy Story','descripcion':'Woody, el juguete favorito de Andy, se siente amenazado por la inesperada llegada de Buzz Lightyear, el guardián del espacio.','calificacion':'5/5','imagen':'toys.jpg','portada':'portadatoys.webp','categoria':'familiar'},
+    {'slug':'shrek','titulo':'Shrek','descripcion':'Un ogro llamado Shrek vive en su pantano, pero su preciada soledad se ve súbitamente interrumpida por la invasión de los ruidosos personajes de los cuentos de hadas.','calificacion':'5/5','imagen':'shrek.webp','portada':'portadashrek.jpg','categoria':'familiar'},
+    {'slug':'shrek-dos','titulo':'Shrek 2','descripcion':'Los padres de la princesa y reyes de Muy, Muy Lejano invitan a cenar Shrek y Fiona, pero el rey Harold descubre que su yerno es un ogro y acude al Hada Madrina para alejar a Shrek de Fiona.','calificacion':'5/5','imagen':'shrek2.jpg','portada':'portadashrek2.jpg','categoria':'familiar'},
+    {'slug':'emoji','titulo':'Emoji la película','descripcion':'Gene, un emoji con varias expresiones, pide a su amigo Hi-5 y al desencriptador Jailbreak que le ayuden a convertirse en un emoji de una cara, como todos sus amigos. Durante su aventura recorren varias aplicaciones y descubren que el teléfono en el que viven está en peligro.','calificacion':'1.7/5','imagen':'emoji.webp','portada':'portadaemoji','categoria':'familiar'},
+    {'slug':'minecraft','titulo':'Una Película de Minecraft','descripcion':'Cuatro inadaptados son arrastrados por un portal al Overworld, un misterioso lugar que se nutre de la imaginación. Para volver a casa, tendrán que dominar el terreno mientras se embarcan en una búsqueda con un artesano llamado Steve.','calificacion':'3/5','imagen':'mine.jpg','portada':'portadamine.jpg','categoria':'familiar'},
+    
+    
+
 ]
 
 
